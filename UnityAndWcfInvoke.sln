@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAndWcfInvoke", "UnityAndWcfInvoke\UnityAndWcfInvoke.csproj", "{980A491F-BC5E-4AAD-8B8B-F1D8F16CBD56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement", "Implement\Implement.csproj", "{11D60750-D95C-4770-93AC-F5A98DBD104A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{0228F2A3-82AE-4D49-B0A5-328F0A0877FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{BD4A0D1D-B96A-45DA-A47A-716B1A7C6302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosting", "Hosting", "{C7ACC798-F0AF-4F6D-AC61-714DCAF2DB99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hosting", "Hosting\Hosting.csproj", "{5C923209-2DE1-4E90-A067-A8BCBDB8050A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCFService", "WCFService", "{91BAE48B-906B-406C-95C9-F72CA251BB93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceImplement", "ServiceImplement\ServiceImplement.csproj", "{1F33B757-1562-4629-828F-B43E154E1A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceInterface", "ServiceInterface\ServiceInterface.csproj", "{3928D8DF-00CE-45B8-85C3-1A97935535C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{980A491F-BC5E-4AAD-8B8B-F1D8F16CBD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980A491F-BC5E-4AAD-8B8B-F1D8F16CBD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980A491F-BC5E-4AAD-8B8B-F1D8F16CBD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980A491F-BC5E-4AAD-8B8B-F1D8F16CBD56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D60750-D95C-4770-93AC-F5A98DBD104A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D60750-D95C-4770-93AC-F5A98DBD104A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D60750-D95C-4770-93AC-F5A98DBD104A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D60750-D95C-4770-93AC-F5A98DBD104A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0228F2A3-82AE-4D49-B0A5-328F0A0877FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0228F2A3-82AE-4D49-B0A5-328F0A0877FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0228F2A3-82AE-4D49-B0A5-328F0A0877FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0228F2A3-82AE-4D49-B0A5-328F0A0877FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4A0D1D-B96A-45DA-A47A-716B1A7C6302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4A0D1D-B96A-45DA-A47A-716B1A7C6302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4A0D1D-B96A-45DA-A47A-716B1A7C6302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4A0D1D-B96A-45DA-A47A-716B1A7C6302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C923209-2DE1-4E90-A067-A8BCBDB8050A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C923209-2DE1-4E90-A067-A8BCBDB8050A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C923209-2DE1-4E90-A067-A8BCBDB8050A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C923209-2DE1-4E90-A067-A8BCBDB8050A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F33B757-1562-4629-828F-B43E154E1A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F33B757-1562-4629-828F-B43E154E1A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F33B757-1562-4629-828F-B43E154E1A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F33B757-1562-4629-828F-B43E154E1A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3928D8DF-00CE-45B8-85C3-1A97935535C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3928D8DF-00CE-45B8-85C3-1A97935535C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3928D8DF-00CE-45B8-85C3-1A97935535C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3928D8DF-00CE-45B8-85C3-1A97935535C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C923209-2DE1-4E90-A067-A8BCBDB8050A} = {C7ACC798-F0AF-4F6D-AC61-714DCAF2DB99}
+		{1F33B757-1562-4629-828F-B43E154E1A59} = {91BAE48B-906B-406C-95C9-F72CA251BB93}
+		{3928D8DF-00CE-45B8-85C3-1A97935535C6} = {91BAE48B-906B-406C-95C9-F72CA251BB93}
+	EndGlobalSection
+EndGlobal
