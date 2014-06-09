@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAndWcfInvoke", "UnityAndWcfInvoke\UnityAndWcfInvoke.csproj", "{980A491F-BC5E-4AAD-8B8B-F1D8F16CBD56}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement", "Implement\Implement.csproj", "{11D60750-D95C-4770-93AC-F5A98DBD104A}"
@@ -18,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceImplement", "ServiceImplement\ServiceImplement.csproj", "{1F33B757-1562-4629-828F-B43E154E1A59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceInterface", "ServiceInterface\ServiceInterface.csproj", "{3928D8DF-00CE-45B8-85C3-1A97935535C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynaCompiler", "DynaCompiler\DynaCompiler.csproj", "{3BAB5F52-EF6F-4E71-9829-46E105B5E22A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,10 @@ Global
 		{3928D8DF-00CE-45B8-85C3-1A97935535C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3928D8DF-00CE-45B8-85C3-1A97935535C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3928D8DF-00CE-45B8-85C3-1A97935535C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BAB5F52-EF6F-4E71-9829-46E105B5E22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAB5F52-EF6F-4E71-9829-46E105B5E22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAB5F52-EF6F-4E71-9829-46E105B5E22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAB5F52-EF6F-4E71-9829-46E105B5E22A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
